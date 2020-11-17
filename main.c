@@ -5,6 +5,10 @@ void func2(int data);
 
 void main()
 {
+    char s='a';
+    int pre_inc=1, post_inc=5;
+
+
     int number=1;
     printf("%d\n",number);
     int j =func();
@@ -17,11 +21,13 @@ int func()
 {
     float f=5.2;
     int d= 6*(int)f;
-    return 5.0;
+    return 5;
 }
 void func2(int data)
 {
     int sum= data+data;
     printf("%d",sum);
 }
+
+
 
